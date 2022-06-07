@@ -1,0 +1,84 @@
+
+
+/* Responsive css */
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    /* #nav li a {
+        padding: 1px 24px;
+    } */
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #666;
+    }
+
+    #nav .subnav a {
+       color: #fff;
+       padding: 5px 38px;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #content .member-item-mobile {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-avt {
+        width: 60%;
+    }
+
+    #content .place-item-mobile {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    #content .contact-mobile {
+        width: 100%;
+    }
+
+    #content .contact-input-mobile {
+        margin-top: 8px;
+    }
+
+    .modal-container {
+        width: 400px;
+        max-width: calc(100% - 24px);
+    }
+    
+}
